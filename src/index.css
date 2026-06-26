@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-primary-50: #fdf4f5;
+  --color-primary-100: #fae8eb;
+  --color-primary-200: #f5d5db;
+  --color-primary-300: #ecb3be;
+  --color-primary-400: #df8899;
+  --color-primary-500: #cf5e76;
+  --color-primary-600: #b9425a;
+  --color-primary-700: #9c3247;
+  --color-primary-800: #822c3e;
+  --color-primary-900: #6e2938;
+  --color-primary-950: #3d121b;
+  
+  --color-blackberry-50: #faf5ff;
+  --color-blackberry-100: #f3e8ff;
+  --color-blackberry-200: #e9d5ff;
+  --color-blackberry-300: #d8b4fe;
+  --color-blackberry-400: #c084fc;
+  --color-blackberry-500: #a855f7;
+  --color-blackberry-600: #9333ea;
+  --color-blackberry-700: #7e22ce;
+  --color-blackberry-800: #6b21a8;
+  --color-blackberry-900: #581c87;
+  --color-blackberry-950: #2e0e4e;
+}
+
+/* Custom fade animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+

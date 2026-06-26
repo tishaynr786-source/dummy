@@ -1,0 +1,6 @@
+{
+  "name": "BlackberryBag",
+  "description": "Elegant Ladies Handbags, Purses, Sling Bags, Clutches, and Travel Bags",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
