@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://blackberrybag.com/sitemap.xml
+Sitemap: http://www.sitemaps.org/schemas/sitemap/0.9
