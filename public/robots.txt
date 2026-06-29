@@ -1,6 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
 
-# Sitemaps
 Sitemap: https://dummy-one-mu.vercel.app/sitemap.xml
