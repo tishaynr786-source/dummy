@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: http://www.sitemaps.org/schemas/sitemap/0.9
+Sitemap: https://dummy-one-mu.vercel.app/sitemap.xml
